@@ -20,4 +20,5 @@ services:
 
 databases:
   - name: blitzapp-db
-    plan: starter
+    plan: basic-256mb
+    diskSizeGB: 1
